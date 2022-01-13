@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    color: maroon;
+    text-align: center;
+    margin-right: 30%;
+}
+
+h2, h3 {
+    color: maroon;
+    text-align: center;
+}
+
+.header-area, .page-heading, .about-us, .our-team, .our-services, .subscribe {
+    border: 3px solid maroon;
+    background-color: #F7E3AF;
+    margin-bottom: 25px;
+    margin-right: 30%;
+}
+
+.main-nav {
+    overflow: hidden;
+    background-color: #C08497;
+}
+
+.main-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    background-color: #F7E3AF;
+    color: maroon;
+}
+
+footer {
+    text-align: left;
+}
