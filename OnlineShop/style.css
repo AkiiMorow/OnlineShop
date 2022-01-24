@@ -1,7 +1,9 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Raleway, serif;
 }
+
 body {
     background-color: lightblue;
     text-align: center;
@@ -367,6 +369,7 @@ nav .main-menu li a {
     bottom: 50px;
     right: 50px;
     z-index: 10000;
+    scroll-behavior: smooth;
 }
 
 .wrapp-service {
@@ -478,6 +481,12 @@ nav .main-menu li a {
     padding: 16px;
     background: #F7F7F7;
 }
+
+.contact-us-form {
+    margin-right: 200px;
+    width: 500px;
+}
+
 .contact-us-form h1, .subscribe-form h1{
     background: #43D1AF;
     padding: 20px 0;

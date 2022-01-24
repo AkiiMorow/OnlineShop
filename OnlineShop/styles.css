@@ -59,19 +59,6 @@ h1, h2{
 }
 
 
-.band-name {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-family: "Booter - Zero Zero";
-    font-weight: normal;
-    color: white;
-}
-
-.band-name-large {
-    font-size: 8em;
-}
-
 .content-section {
     margin: 1em;
 }
@@ -86,14 +73,6 @@ h1, h2{
     text-align: center;
     font-size: 2.5em;
     background-color: #F7E3AF;
-}
-
-.about-band-image {
-    float: left;
-    height: 200px;
-    width: 200px;
-    margin: 15px;
-    border-radius: 50%;
 }
 
 .main-footer {
@@ -128,17 +107,6 @@ h1, h2{
     cursor: pointer;
 }
 
-.btn-header {
-    margin: .5em 15% 2em 15%;
-    color: white;
-    border: 2px solid #2D9CDB;
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 0;
-    font-size: 1.5em;
-    font-weight: lighter;
-    padding-left: 2em;
-    padding-right: 2em;
-}
 
 .btn-header:hover {
     background-color: rgba(255, 255, 255, .3);
@@ -168,38 +136,6 @@ h1, h2{
     background-color: pink;
 }
 
-.tour-row {
-    border-bottom: 1px solid black;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-}
-
-.tour-row:last-child {
-    border: none;
-}
-
-.tour-item {
-    display: inline-block;
-    padding-right: .5em;
-}
-
-.tour-date {
-    color: #555;
-    width: 11%;
-    font-weight: bold;
-}
-
-.tour-city {
-    width: 24%;
-}
-
-.tour-arena {
-    width: 42%;
-}
-
-.tour-btn {
-    max-width: 19%;
-}
 
 .shop-item {
     margin: 30px;
