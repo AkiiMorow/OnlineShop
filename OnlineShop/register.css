@@ -77,6 +77,38 @@ form .txt_field{
     width:100%;
 }
 
+.form .form-element .password-policies{
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 10px;
+    background: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.form .form-element .password-policies.active {
+    opacity: 1;
+    padding: 10px;
+    height: 180px;
+}
+
+.form .form-element .password-policies > div {
+    margin: 15px 10px;
+    font-weight: 600;
+    color: #888;
+}
+
+.form .form-element .password-policies > div active{
+    color: #111;
+}
+
+
 form .button{
     height: 45px;
     margin: 35px 0
