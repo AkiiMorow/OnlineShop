@@ -5,17 +5,24 @@ body{
     background-color: lightblue;
     height: 100vh;
     overflow: hidden;
-    display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
+}
+
+.logo-block {
+    margin-bottom: 50px;
 }
 
 .center {
-    max-width: 700px;
-    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
     background-color: #F7E3AF;
-    border-radius: 10px;
-    padding: 25px 30px;
+    border-radius: 20px;
+    margin-top: 70px;
 }
 
 .center h1{
@@ -129,6 +136,15 @@ form .button input{
 form .button input:hover{
     background-color: #C08497;
     transition: .5s;
+}
+
+.signup_link a{
+    color: #C08497;
+    text-decoration: none;
+}
+
+.signup_link a:hover{
+    text-decoration: underline;
 }
 
 @media(max-width: 584px){
