@@ -6,15 +6,12 @@
     <link rel="stylesheet" href="register.css">
     <link rel="stylesheet" href="style.css">
 
-    <div class="logo-block">
-        <a id="logo" href="#"><img src="images/logo.png" alt=""></a>
-    </div>
-
-</div>
-
 </head>
 
 <body>
+<div class="logo-block">
+    <a id="logo" href="#"><img src="images/logo.png" alt=""></a>
+</div>
 
 
 
@@ -42,23 +39,25 @@
             <label>Phone Number</label>
         </div>
         <div class="txt_field">
-            <input type="text" required>
+            <input pattern=".{8,}" required title="8 characters minimum" type="text" >
             <label>Password</label>
         </div>
         <div class="txt_field">
-            <input type="text" required>
+            <input pattern=".{8,}" required title="8 characters minimum" type="text" >
             <label>Confirm Password</label>
         </div>
-
         <div class="button">
+            <!--- link to index.html doesnt work idk why --->
+            <a href="index.html">
             <input type="submit" value="Register">
+            </a>
+
         </div>
         <div class="signup_link">
             Already a member? <a href="login.html">Log In</a>
         </div>
 
     </form>
-</div>
 </div>
 
 </body>
